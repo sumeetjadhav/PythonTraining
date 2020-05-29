@@ -53,3 +53,40 @@ TypeError: 'str' object does not support item assignment
 #find length
 >>> len(name)
 7
+
+
+
+
+
+
+
+
+# find address of variable 
+
+>>> num=5
+>>> id(num)
+1563228144
+>>> name='sumeet'
+>>> id(name)
+65459744
+
+#in python when we create multiple variable and both have similar data then it will use same memory
+>>> a=1
+>>> b=a
+>>> id(a)
+1563228080
+>>> id(b)
+1563228080
+#id is not assigned to variable it is assigned to value
+>>> id(1)
+1563228080
+
+
+#in python we can't create constant variables
+>>> PI=3.14
+>>> type(PI)
+<class 'float'>
+
+
+
+
